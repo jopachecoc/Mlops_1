@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template_string
-
+import diagnosticos 
 from diagnosticos import enfermedad1
 
 app = Flask(__name__)
@@ -193,5 +193,9 @@ def diagnostico():
     return render_template_string(html_form_diagnostico, resultado=resultado)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# Asegúrate de usar host='0.0.0.0'
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
+#if __name__ == "__main__":
+#    app.run(debug=True)
