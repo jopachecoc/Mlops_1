@@ -30,3 +30,4 @@ def enfermedad1(Presion_sistolica, Presion_diastolica, Pulso, Temperatura):
         categoria = 'ENFERMEDAD CRÓNICA'
 
     return categoria
+## va a correr con exito
