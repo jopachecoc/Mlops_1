@@ -1,6 +1,6 @@
 # funcion # diagnosticos.py
 # esta funcionn  realia todo el proceso de una manera elelgante y dinamica
-# esto se realiza para pkjasndkjasndlkjasbdjkabdjs
+# esto se realiza para quititamos eso y lo hacemos de nuevo
 
 def enfermedad1(Presion_sistolica, Presion_diastolica, Pulso, Temperatura):
     categoria = 'SIN CATEGORIA'
