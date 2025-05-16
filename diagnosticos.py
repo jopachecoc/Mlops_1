@@ -1,4 +1,7 @@
-# diagnosticos.py
+# funcion # diagnosticos.py
+# esta funcionn  realia todo el proceso de una manera elelgante y dinamica
+# esto se realiza para quititamos eso y lo hacemos de nuevo
+# y de nuevo lo amos hacer para que vuelva a aparecer el comentario
 
 def enfermedad1(Presion_sistolica, Presion_diastolica, Pulso, Temperatura):
     categoria = 'SIN CATEGORIA'
